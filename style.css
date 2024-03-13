@@ -363,3 +363,9 @@ header nav {
   .alertas{
     color: red;
   }
+
+  .greeting{
+    background-color: green;
+    width: 100%;
+    height: 10vh;
+  }
