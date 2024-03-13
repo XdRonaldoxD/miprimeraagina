@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <header id="encabezado">
+            <h1 class="logo">
+                <a href="index.html"><i class="fa fa-heart" aria-hidden="true"></i><span id="texto-sitio">Sitio
+                        Web</span> </a>
+            </h1>
+            <nav>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </label>
+                <ul>
+                    <li> <a href="#"> Inicio</a></li>
+                    <li> <a href="#"> Acerca de mi</a></li>
+                    <li> <a href="#"> Trabajos</a></li>
+                    <li> <a href="#"> Servicios</a></li>
+                    <li> <a href="#"> Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="seccion-principal">
+            <section class="seccion-1">
+                <div class="acerca-de">
+                    <h2 id="acerca-de-mi">Acerca de mi</h2>
+                    <p>Bienvenido a la web</p>
+                    <p class="texto-parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, saepe ab.
+                        Quam doloribus quo
+                        cupiditate necessitatibus, explicabo quae adipisci, modi saepe ducimus rerum veritatis commodi,
+                        tempore non quibusdam laudantium eius.</p>
+                </div>
+                <div class="acerca-imagen">
+                    <img src="imagen/imagen-web.avif" alt="imagen 1">
+                </div>
+            </section>
+            <section class="seccion-2">
+                <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/What_is_Web_Designing.jpg"
+                    alt="imagen 1">
+            </section>
+            <section class="seccion-3">
+                <div class="columnas">
+                    <div class="imagen-pagina-web-1">
+                        <div class="contenido-imagen-web-1">
+                            <img src="https://framerusercontent.com/images/y8E2Ks8iP03wV8ub5Guava26o.jpg?scale-down-to=512"
+                                alt="">
+                            <h2>Recursos Gratuitos</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dicta expedita
+                                enim optio, voluptates repudiandae quam. Eos vitae eum laudantium adipisci sequi, nemo
+                                enim quod asperiores, corporis ullam dolorem dolore!</p>
+                        </div>
+                    </div>
+                    <div class="imagen-pagina-web-1">
+                        <div class="contenido-imagen-web-1">
+                            <img src="https://framerusercontent.com/images/apRZy0OCqKly2g021mJrOI1LyE.jpg?scale-down-to=512"
+                                alt="">
+                            <h2>Recursos Gratuitos</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dicta expedita
+                                enim optio, voluptates repudiandae quam. Eos vitae eum laudantium adipisci sequi, nemo
+                                enim quod asperiores, corporis ullam dolorem dolore!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="imagen-pagina-web-1">
+                    <div class="contenido-imagen-web-1">
+                        <img src="https://framerusercontent.com/images/apRZy0OCqKly2g021mJrOI1LyE.jpg?scale-down-to=512"
+                            alt="">
+                        <h2>Recursos Gratuitos</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dicta expedita enim
+                            optio, voluptates repudiandae quam. Eos vitae eum laudantium adipisci sequi, nemo enim quod
+                            asperiores, corporis ullam dolorem dolore!</p>
+                    </div>
+                </div>
+            </section>
+            <section class="seccion-4">
+                <h3>Contacto</h3>
+                <p><em>¡Esperamos tu consulta!</em></p>
+                <form action="" method="get" class="formulario" id="form">
+                    <div class="form-row">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" name="nombre" type="text" />
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="smithxd118@gmail.com" />
+                    </div>
+                    <div class="form-row">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit">Enviar</button>
+                    </div>
+                    <p id="alertas" class="alertas"></p>
+                </form>
+                </footer>
+            </section>
+        </main>
+        <footer>
+            <h3>Titulo Footer</h3>
+            <ol>
+                <li> Inicio</li>
+                <li> Trabajo</li>
+                <li> Servicio</li>
+                <li> Acerca de mi</li>
+                <li> Contacto</li>
+            </ol>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
